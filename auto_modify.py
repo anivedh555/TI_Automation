@@ -43,9 +43,9 @@ def main():
     #group.add_argument("-ips", metavar= "IPS" help="Multiple IP addresses to check")
     group.add_argument("-file", metavar="FILE", help="Path to the input CSV file")
     args = parser.parse_args()
-    vt_api_key = "a3a51c954f3510216b07430af840e88b3732564786dec3ff3baad2033dfd1b06"
-    xforce_api_key = 'e8a1d629-02b0-4214-b4c3-78881c9523ad'
-    xforce_api_password= "9bb8cba9-f797-46d0-9ca4-5da6b419233f"
+    vt_api_key = ""
+    xforce_api_key = ''
+    xforce_api_password= ""
 
 
     if args.ip:
